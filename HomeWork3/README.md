@@ -4,18 +4,18 @@
 
 Создайте в базе данных две связанные таблицы Countries и Cities:
 
-Countries
-(
-id int, //primary key
-country varchar(64) //country name
-)
-и
-Cities
-(
-id int, //primary key
-city varchar(64), //city name
-countryid int //foreign key for relationship with Countries
-)
+Countries<br>
+<br>
+id int, //primary key<br>
+country varchar(64) //country name<br>
+)<br>
+и<br>
+Cities<br>
+(<br>
+id int, //primary key<br>
+city varchar(64), //city name<br>
+countryid int //foreign key for relationship with Countries<br>
+)<br>
 
 Создайте страницу lists.php, в которой создайте элемент select, отображающий перечень стран из таблицы Countries.<br>
 Средствами AJAX сделайте так, чтобы при выборе страны в этом элементе select, под ним появлялась таблица (тег table), содержащая список городов выбранной страны. Никаких кнопок на странице быть не должно.
